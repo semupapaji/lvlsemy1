@@ -21,7 +21,7 @@ ACCOUNTS_FILE   = 'accounts.json'
 LEVEL_EXP_FILE  = 'level_exp.json'
 
 MAX_SERVERS     = 40
-BATCH_SIZE      = 16
+BATCH_SIZE      = 5
 BATCH_DURATION  = 6 * 3600
 
 os.makedirs(DATA_DIR, exist_ok=True)
