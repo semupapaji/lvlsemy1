@@ -22,7 +22,7 @@ LEVEL_EXP_FILE  = 'level_exp.json'
 
 MAX_SERVERS     = 40
 BATCH_SIZE      = 5
-BATCH_DURATION  = 6 * 3600
+BATCH_DURATION  = 7 * 3600
 
 os.makedirs(DATA_DIR, exist_ok=True)
 os.makedirs(SERVERS_DIR, exist_ok=True)
